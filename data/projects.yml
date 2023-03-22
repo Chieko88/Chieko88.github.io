@@ -1,19 +1,20 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Family Newspaper(Currently under development.)
+  description:  Creation of a new online service to more effectively connect remote family members across generations in Japan, by allowing younger generations to post news and photos online, and older generations to receive a printed version of this content, in the form of a newspaper.
+  image: projects/FN_1.png
+  # url: https://www.google.com
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: miraihabit
+  description: Miraihabit is an app that helps you reduce your plastic footprint by completing daily challenges. Reduce your plastic consumption and choose new sustainable alternatives.
+  image: projects/miraihabit_1.png
+  url: https://www.miraihabit.site
 
-- name: Airbnb
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
+- name: Tradys
+  description: Tradys is a marketplace web app which you can book interesting traditional experiences around the world. Also you can make experiences as a host.  Enjoy traditions around the world !
+  image: projects/tradys_1.png
+  url: https://tradys.herokuapp.com/
 
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
+
+- name: Portpolio
+  description: my portpolio
+  image: projects/portpolio.png
   url: https://www.google.com
