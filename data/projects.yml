@@ -1,5 +1,5 @@
-- name: Family Newspaper(Currently under development.)
-  description:  Creation of a new online service to more effectively connect remote family members across generations in Japan, by allowing younger generations to post news and photos online, and older generations to receive a printed version of this content, in the form of a newspaper.
+- name: Family Newspaper (Currently under development)
+  description: Creation of a new online service to more effectively connect remote family members across generations in Japan, by allowing younger generations to post news and photos online, and older generations to receive a printed version of this content, in the form of a newspaper.
   image: projects/FN_1.png
   # url: https://www.google.com
 
