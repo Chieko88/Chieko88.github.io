@@ -1,17 +1,26 @@
-name: Middleman
+name: gh-pages
 
 on:
   push:
     branches: [main]
+
+permissions:
+  contents: write
 
 jobs:
   build_and_deploy:
     name: Build & Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: Build & Deploy to GitHub Pages
+      - uses: actions/checkout@v3
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1.144.2
         with:
-          REMOTE_BRANCH: gh-pages
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        uses: yurikoval/middleman-gh-pages-action@master
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Build
+        run: bundle exec middleman build --verbose
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
