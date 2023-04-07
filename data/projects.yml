@@ -14,7 +14,7 @@
   url: https://tradys.herokuapp.com/
 
 
-- name: Portpolio
-  description: my portpolio
+- name: Portfolio
+  description: my portfolio
   image: projects/portpolio.png
   url: https://chieko88.github.io/
